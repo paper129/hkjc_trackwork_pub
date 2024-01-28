@@ -7,8 +7,6 @@ from bs4 import BeautifulSoup
 from flask_cors import CORS, cross_origin
 from werkzeug.exceptions import HTTPException
 from datetime import datetime
-import requests
-import pytz
 
 
 app = Flask(__name__)
